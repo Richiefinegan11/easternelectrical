@@ -1,16 +1,13 @@
 body {
-    
-    color: rgb(63, 123, 190) 
-
+    background-color: rgba(154, 164, 172, .05)
 }
 
-.navbar{
-    
-}
+
+/*-------------------- Index*/
 
 .callout-container{
-    
-}
+
+}   
 
 .product-container{
     
@@ -19,3 +16,50 @@ body {
 .features-container{
     
 }
+
+.jumbotron {
+    background: url(../images/bg-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+}
+
+/*-------------------- Team*/
+
+.team-container {
+
+}
+
+.team-header {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.team-container a {
+
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+
