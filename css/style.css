@@ -1,15 +1,39 @@
 body {
-    background-color: rgba(154, 164, 172, .05)
+    background-color: #ffffff
 }
 
 
 /*-------------------- Index*/
 
 .callout-container{
+    height: 75  vh;
 
-}   
+    background: url(../images/lamps.jpg) no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(17, 2, 82, 0.288);
+    border-radius: 20px;
+}
 
 .product-container{
+    
     
 }
 
@@ -18,17 +42,8 @@ body {
 }
 
 .jumbotron {
-    background: url(../images/bg-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-
-    background-size: cover; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    
+    background-color: transparent;
+    color: white;
 }
 
 /*-------------------- Team*/
@@ -62,4 +77,6 @@ body {
     padding: 5px;
 }
 
-
+.navbar  {
+    margin-left: 30px;
+}
